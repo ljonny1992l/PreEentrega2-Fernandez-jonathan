@@ -43,7 +43,7 @@ let respuesta = "SI";
 let resultado = [];
 let unResultado = [];
 
-// Ciclo y flujos de control.
+// Ciclo y flujos de control
 
 while (area != 0) {
 
@@ -103,7 +103,7 @@ while (area != 0) {
                 const resultadoTotal = resultado.concat(unResultado);
 
                 //Método sort
-                
+
                 resultadoTotal.sort((primero, segundo) => primero.r - segundo.r);
                 console.log("Los productos ordenados de manera ascendete es ", resultadoTotal);
 
